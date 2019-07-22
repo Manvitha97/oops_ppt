@@ -1,0 +1,137 @@
+<html>
+    <head>
+        
+        <title> Register </title>
+        <h1 align="center">REGISTER </h1>
+        <h2 align="center ">please fill in this form to create an account</h2>
+    </head>
+    <body>
+        <center>
+                <table border="1" cellpadding="5" cellspacing="5">
+         
+<tr>
+ 
+        <th> UserName</th>
+         
+        <td><input type="text"  placeholder="Enter Username"></td>
+         
+        </tr><br>
+         
+<tr>
+ 
+        <th>Enter  name</th>
+         
+        <td><input type="text"  placeholder="Enter name" ></td>
+         
+        </tr><br>
+         
+<tr>
+ 
+        <th>Email</th>
+         
+        <td><input type="text" placeholder="Enter Email"></td>
+         
+        </tr><br>
+        <tr>
+ 
+        <th>password</th>
+         
+        <td><input type="text" placeholder="Enter Password"></td>
+         
+        </tr><br>
+        <tr>
+ 
+                <th>Repeat Password</th>
+                 
+                <td><input type="text" placeholder="Repeat Password"></td>
+                 
+                </tr><br>
+                <tr>
+ 
+                        <th>DOB</th>
+                         
+                        <td><input type="date"/></td>
+                         
+                        </tr><br>
+                        
+<tr>
+ 
+        <th>Gender</th>
+         
+        <td>
+         
+        <input type="radio" name=" gender" value="male"  >Male<br>
+        <input type="radio" name=" gender" value="female"  >Female<br>
+  
+        <input type="radio"  name="gender" value="other ">other
+         
+        </td>
+         
+        </tr><br>
+        <tr>
+ 
+                <th>languages known</th>
+                 
+                <td>
+                 
+                <input type="checkbox" name="English" value="English">English
+                <input type="checkbox" name="Hindi" value="Hindi">Hindi
+                <input type="checkbox" name="Tamil" value="Tamil">Tamil
+                <input type="checkbox" name="Telugu" value="English">Telugu
+                 
+                </td>
+                 
+                </tr><br>
+                <tr>
+ 
+                        <th>Contact Number</th>
+                         
+                        <td><input type="text" placeholder="phone number"></td>
+                         
+                        </tr><br>
+                        <tr>
+ 
+                                <th>upload</th>
+                                 
+                                <td><input type="file" ></td>
+                                 
+                                </tr><br>
+                                <tr>
+ 
+                                        <th>Favourite color</th>
+                                         
+                                        <td><input type="color" ></td>
+                                         
+                                        </tr><br>
+                                        <tr>
+ 
+                                                <th>Download File</th>
+                                                 
+                                                <td><input type="text" placeholder="Download PDF file" ></td>
+                                                 
+                                                </tr><br>
+                                                <tr>
+                                                    
+                                                    <th>Qualification</th>
+                                                   <td>
+                                                       <select>
+                                                        <option>mtech</option>
+                                                        <option>btech</option>
+                                                        <option selected> degree</option>
+                                                        </select>
+                                                  </td>
+                                                    
+                                                </tr><br>
+                                                <tr>
+                                                    <td>
+                                                        <input type="submit" value="submit"
+                                                    </td>
+                                    
+                                                </tr>
+                                                
+                                                
+                                                </center>
+
+    </body>
+    </html>
+</html>
