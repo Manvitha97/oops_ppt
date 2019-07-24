@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+    .demo-content{
+        padding:15px;
+        font-size: 18px;
+        background:#dc3545;
+        margin-bottom: 15px;
+    }
+    .demo-content.bg-alt{
+        background:#dc3545;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="bs-example"></div>
+            <table class="table table-bordered"  cellpadding="5" cellspacing="5">
+                <thead>
+                    <tr class="table-success">
+                        <th>No</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-info">
+                        <td>1</td>
+                        <td>manvitha</td>
+                        <td>manvitha@gmail.com</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td>2</td>
+                        <td>suresh</td>
+                        <td>suresh@gmail.com</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>3</td>
+                        <td>ruresh</td>
+                        <td>ruresh@gmail.com</td>
+                    </tr>
+                </tbody>
+                </table>
+    </body>
+</html>
