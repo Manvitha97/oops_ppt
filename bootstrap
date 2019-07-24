@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .demo-content
+    {
+        padding: 15px;
+        font-size: 18px;
+        background: #00aeff;
+        margin-bottom: 15px;
+    }
+    .demo-content.bg-alt
+    {
+        background: #abb1b8;
+    }
+    </style>
+
+    <center>
+            
+    <table cellpadding="5" cellspacing="5">
+            <link rel="stylesheet" type="text/css" href="mystyle.css">
+            <script src="myscript.js"></script>
+            <p><h2 align="center">REGISTER</h2> 
+            <p><h4 align="center">please fill in this form to create an account</h4> 
+            </p>
+            <body  background="bg1.jpg">
+            <form name="f1" onsubmit="validation()">
+</head>
+<body>
+        <div class="container">
+        <div class="bs-example">
+                <form action="hello.html" method="post">
+
+                        <div class="form-group row">
+                                <label for="inputUsername" class="col-sm-2 col-form-label">Username</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputUsername" placeholder="Username" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                    <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+                                    </div>
+                                </div>
+
+
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                            <label for="inputConfirm Password" class="col-sm-2 col-form-label">ConfirmPassword</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Confirm Password" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                                <label for="inputDOB" class="col-sm-2 col-form-label">DOB</label>
+                                <div class="col-sm-10">
+                                    <input type="date" class="form-control" id="input DOB">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                    <label for="input gender" class="col-sm-2 col-form-label">gender</label>
+                                    <div class="col-sm-10">
+                                      male<input type="radio" style="width:15px; height:15px;" class="form-control" id="input gender"><br>
+                                      female<input type="radio" style="width:15px; height:15px;" class="form-control" id="input gender">
+
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                        <label for="input phone no" class="col-sm-2 col-form-label">phone no</label>
+                                        <div class="col-sm-10">
+                                            <input type="phone no" class="form-control" id="input phone no" placeholder="phone no" required>
+                                        </div>
+                                    </div>
+
+
+                    <div class="form-group row">
+                        <div class="col-sm-6 offset-sm-6">
+                                <form method="" action="login.html"> </form>
+                                
+
+                           <button type="submit" class="btn btn-primary">Register</button>
+                            <button type="reset" class="btn btn-primary">Clear</button>
+                        </div>
+                    </div>
+
+                    
+                </form>
+            </div>
+            
+            
+        </center>
+        </div>
+        
+</body>
+
+</html>
